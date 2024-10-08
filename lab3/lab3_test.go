@@ -17,7 +17,7 @@ func TestCalculator(t *testing.T) {
 		{"/sub/7/2/3", "Error!"},
 		{"/mul/3/4", "3 * 4 = 12"},
 		{"/mul/3", "Error!"},
-		{"/div/10/3", "10 / 3 = 3, reminder = 1"},
+		{"/div/10/3", "10 / 3 = 3, remainder 1"},
 		{"/div/10/0", "Error!"},
 		{"/div/10/3/4", "Error!"},
 		{"/div/10/a", "Error!"},
